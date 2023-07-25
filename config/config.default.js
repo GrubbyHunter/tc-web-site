@@ -5,6 +5,8 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
+const path = require('path');
+
 module.exports = appInfo => {
   /**
    * built-in config
@@ -17,6 +19,13 @@ module.exports = appInfo => {
 
   // add your middleware config here
   config.middleware = [];
+
+  // 使用模板
+  config.view = {
+    mapping: {
+      '.ejs': 'ejs',
+    },
+  };
 
   // add your user config here
   const userConfig = {
