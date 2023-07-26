@@ -6,9 +6,15 @@ class HomeController extends Controller {
   async index() {
     const { ctx } = this;
 
-    await ctx.render('hello.ejs', {
-      data: 'world',
-    });
+    const locals = {
+      title: '首页',
+    };
+
+    // const viewOptions = {
+    //   layout: 'public/layout.ejs',
+    // };
+
+    await ctx.render('index.ejs', locals);
   }
 }
 
