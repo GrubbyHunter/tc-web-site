@@ -1,0 +1,134 @@
+﻿    <%-include ("public/header.ejs") %> 
+
+    <!--Start Page Header Section-->
+    <section class="page-header" style="background-image: url(public/images/background/page-header-bg.jpg);">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul class="thm-breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><span>></span></li>
+                <li><span>Contact</span></li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Header Section-->
+    
+    <!--Start Contact One Section-->
+    <section class="contact-one-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="contact-one-image">
+                        <img src="public/images/resource/contact-one-img-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <form action="inc/sendemail.php" class="contact-one-form">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <input type="text" name="name" placeholder="Your name">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <input type="email" name="email" placeholder="Your E-mail">
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="input-box">
+                                    <input type="text" name="Subject" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="input-box">
+                                    <textarea name="message" placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="contact__btn">
+                                    <button type="submit" class="theme-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact One Section-->
+    
+    <section class="google_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" class="google-map__contact" allowfullscreen=""></iframe>
+
+    </section>
+    
+    <!--Start ContactinfoSection -->   
+    <section class="contactinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <!--Contactinfo Single-->
+                    <div class="contactinfo-single">
+                        <div class="contactinfo-icon">
+                            <span class="far fa-envelope-open"></span>
+                        </div>
+                        <div class="contactinfo-content">
+                            <h4>Mail Address</h4>
+                            <a href="mailto:info@example.com">info@example.com</a><br>
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <!--Contactinfo Single-->
+                    <div class="contactinfo-single">
+                        <div class="contactinfo-icon">
+                            <span class="far fa-phone"></span>
+                        </div>
+                        <div class="contactinfo-content">
+                            <h4>Call Us</h4>
+                            <a href="tel:+812 555 33 44">+812 555 33 44</a><br>
+                            <a href="tel:+812 555 33 44">+812 555 33 44</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <!--Contactinfo Single-->
+                    <div class="contactinfo-single">
+                        <div class="contactinfo-icon">
+                            <span class="far fa-map-pin"></span>
+                        </div>
+                        <div class="contactinfo-content">
+                            <h4>Visit us</h4>
+                            <p>41 Flatbush Ave., Brooklyn,<br>New York 11217, USA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End ContactinfoSection --> 
+       
+    <!--Start Newsletter One Section --> 
+    <section class="newsletter-one-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="newsletter-one-sec-inner">
+                        <div class="title">
+                            <h2>Newsletter Signup</h2>
+                            <p>Sign up for our newsletter to get Updte</p>
+                        </div>
+                        <div class="newsletter-one-input-box">
+                            <input type="Email" placeholder="Email Address">
+                            <button type="submit" class="button"><i class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Newsletter One Section --> 
+        
+    <%-include ("public/footer.ejs") %> 
