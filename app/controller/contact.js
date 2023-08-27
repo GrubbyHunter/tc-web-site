@@ -8,6 +8,7 @@ class ContactController extends Controller {
 
     const locals = {
       title: '联系我们',
+      key: 'contact',
     };
 
     // const viewOptions = {

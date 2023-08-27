@@ -8,6 +8,7 @@ class BlogController extends Controller {
 
     const locals = {
       title: '公司动态',
+      key: 'blog',
     };
 
     // const viewOptions = {

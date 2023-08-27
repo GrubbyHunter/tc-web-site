@@ -8,6 +8,7 @@ class ProjectController extends Controller {
 
     const locals = {
       title: '公司项目',
+      key: 'project',
     };
 
     // const viewOptions = {

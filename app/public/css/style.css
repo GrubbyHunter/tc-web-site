@@ -2,7 +2,7 @@
 
 /* TABLE OF CONTENTS *
 
-    ¸ü¶àÏÂÔØ£ºhttp://www.bootstrapmb.com
+    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½http://www.bootstrapmb.com
 **********************************************/
 
 /*** 
@@ -2478,7 +2478,7 @@
  ***/
  .brand-one {
      position: relative;
-     display: block;
+     display: none;
      padding: 90px 0;
      border-bottom: 1px solid #f5f0e9;
  }
@@ -3218,6 +3218,16 @@
      line-height: 65px;
      margin-bottom: 10px;
  }
+
+ .header-disabled {
+    cursor: not-allowed;
+ }
+ ul.project-desc li span{
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 18px;
+ }
+
  .thm-breadcrumb {
      display: inline-block;
      margin: 0;
@@ -4167,6 +4177,9 @@
      position: relative;
      display: block;
      padding: 100px 0 100px;
+ }
+ section.blog-classic-custom {
+    padding-top: 30px;
  }
  .blog-classic-content{
      position: relative;

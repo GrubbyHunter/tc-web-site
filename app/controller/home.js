@@ -8,6 +8,7 @@ class HomeController extends Controller {
 
     const locals = {
       title: '首页',
+      key: 'index',
     };
 
     // const viewOptions = {

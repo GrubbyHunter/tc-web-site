@@ -8,6 +8,7 @@ class AboutController extends Controller {
 
     const locals = {
       title: '关于我们',
+      key: 'about',
     };
 
     // const viewOptions = {

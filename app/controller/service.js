@@ -8,6 +8,7 @@ class ServiceController extends Controller {
 
     const locals = {
       title: '招标公示',
+      key: 'service',
     };
 
     // const viewOptions = {
