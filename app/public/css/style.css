@@ -858,14 +858,14 @@
  .header_upper_one_box .logo {
      position: relative;
      display: block;
-     padding: 25px 0;
+     padding: 16px 0;
  }
  .header_upper_one_box .logo a{
      display: inline-block;
  }
 
 .logo img {
-    width: 200px;
+    width: 270px;
  }
  
  .main-header .nav-outer {
